@@ -1,4 +1,4 @@
-;;;; LISP review 1.
+;;;; Lisp review 1.
 ;;;; SBCL
 
 (in-package common-lisp-user)
