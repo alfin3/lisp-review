@@ -1,2 +1,2 @@
 # lisp-exercises
-LISP exercises for review purposes 
+Lisp exercises for review purposes 
