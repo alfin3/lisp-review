@@ -1,7 +1,5 @@
 ;;;; Lisp review 1.
-;;;; SBCL
-
-(in-package common-lisp-user)
+;;;; SBCL 1.3.1.
 
 (defun transpose (matrix)
  "matrix transpose
