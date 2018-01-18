@@ -86,7 +86,7 @@
    (t (cons (car list) (super-remove elt (cdr list) :test test)))))
 
 (defun super-delete (elt list &key (test #'eql))
-  "removes instances of elt in the list.
+  "deletes instances of elt in the list.
    inconsistent behaviour for the first member of
    the list.
    elt: any object
