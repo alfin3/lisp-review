@@ -114,7 +114,7 @@
             (super-delete-h  elt current 'r))) 
           (t (super-delete-h 
               elt current ' r)))))))
-   (if (super-delete-h elt list 'r) ;; mimic behaviour of delete
+   (if (super-delete-h elt list 'r) 
        (if (funcall test (car list) elt) 
            (cdr list)
          list))))
