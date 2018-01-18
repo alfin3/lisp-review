@@ -96,8 +96,7 @@
    ((super-delete-h 
      (elt previous dir-from-prev)
      (let
-         ;; determine the current pointer dependent on direction we 
-         ;; chose to explore from previous 
+         ;; determine the current pointer dependent on direction 
          ((current
 	   (if (eql dir-from-prev 'l) 
                (car previous) (cdr previous))))
