@@ -1,5 +1,5 @@
-;;;; Lisp review 1.
-;;;; SBCL 1.3.1
+;;; Lisp review 1.
+;;; SBCL 1.3.1
 
 (defun transpose (matrix)
  "matrix transpose
