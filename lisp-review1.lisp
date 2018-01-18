@@ -1,6 +1,5 @@
 ;;;; Lisp review 1.
 ;;;; SBCL 1.3.1
-;;;; SLIME 2.20
 
 (defun transpose (matrix)
  "matrix transpose
