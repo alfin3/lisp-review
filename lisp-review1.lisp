@@ -131,7 +131,7 @@
        (super-delete-helper-l elt prev test))
       ((funcall test (cdr cur) elt)
        (setf (cdr cur) ())
-       (super-delete-helper-r elt cur test))
+       (super-delete-helper-l elt cur test))
       (t (super-delete-helper-r elt cur test)
 	 (super-delete-helper-l elt cur test)))))
            
