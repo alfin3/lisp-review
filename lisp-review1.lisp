@@ -82,7 +82,7 @@
     ((null lst) ())
     ((funcall testp (car lst) el) (super-remove el (cdr lst) :testp testp))
     ((listp (car lst)) (cons (super-remove el (car lst) :testp testp)
-			      (super-remove el (cdr lst) :testp testp)))
+			     (super-remove el (cdr lst) :testp testp)))
     (t (cons (car lst) (super-remove el (cdr lst) :testp testp)))))
 
 (defun super-delete (el lst &key (testp #'eql))
