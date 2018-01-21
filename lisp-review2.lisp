@@ -40,7 +40,3 @@
 		(setf (gethash key new-ht) val)))
 	    key-list)
     new-ht))
-
-(defun random-member (lst)
-  "returns a random member of a list"
-  (nth (random (length lst)) lst))
