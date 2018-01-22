@@ -13,7 +13,7 @@
     (foldl f (funcall f (car lst) u) (cdr lst))))
 
 (defun compose (f1 f2)
-  "compose two functions"
+  "compose two functions, great for stacking nn layers, see other repos"
   (lambda (x) (funcall f1 (funcall f2 x))))
 
 (defun sum (lst)
