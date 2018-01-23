@@ -27,7 +27,7 @@
 	   (if (funcall p? head) (cons head tail) tail)) '() lst))
 
 (defun lazy-filter-first (p? lst)
-  "finds the first member and returns a lazy pair"
+  "finds the first member and returns a pair"
   (foldr (lambda (head tail)
 	   (if (funcall p? head)
 	       (cons head (lambda () tail)) tail)) '() lst))
