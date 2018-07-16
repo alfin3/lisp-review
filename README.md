@@ -1,5 +1,5 @@
 # lisp review
-these reviews are helpful before diving into other lisp repos as they cover key concepts
+the provided review examples could be helpful before diving into other lisp repos
 
 review1: tail recursion, mutual recursion, lists and pointers
 
