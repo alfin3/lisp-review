@@ -19,8 +19,8 @@
 		      (- n 1)))))
     (tri 0 n)))
 
-(defun triangle-types (n)
-  "(time (triangle-types 50000))"
+(defun triangle (n)
+  "(time (triangle 50000))"
   (labels ((tri (c n)
 	     (declare (type fixnum n c))
 	     (if (zerop n)
