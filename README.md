@@ -4,3 +4,5 @@ the provided review examples could be helpful before diving into other lisp repo
 review1: tail recursion, mutual recursion, lists and pointers
 
 review2: handy foldr, foldl, filter, lazy evaluation examples
+
+review3: squeezing performance out of the compiler
