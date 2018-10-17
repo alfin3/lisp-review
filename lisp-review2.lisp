@@ -48,3 +48,5 @@
 (defun sum-filter (p? lst)
   "filter and then sum"
   (sum (filterl p? lst)))
+
+;; EOF
