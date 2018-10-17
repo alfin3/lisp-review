@@ -35,7 +35,7 @@
 (proclaim '(inline bad-fib-inl))
 
 (defun bad-fib (n)
-  "(time (bad-fib-inl 40))"
+  "(time (bad-fib 40))"
   (if (< n 3)
       1
       (+ (bad-fib (- n 1))
