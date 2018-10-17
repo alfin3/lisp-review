@@ -1,8 +1,8 @@
 ;;;; Lisp review 3.
 ;;;; SBCL 1.3.1
-;;;; space and time optimization, snippets from On Lisp by Graham
+;;;; space and time optimization, based on On Lisp by Graham
 
-;;;; optimization with tail recursion and type declaration
+;;;; tail recursion and type declaration
 
 (defun triangle-no-tail-rec (n)
   "(time (triangle-no-tail-rec 50000))"
