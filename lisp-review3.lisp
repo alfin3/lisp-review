@@ -1,6 +1,6 @@
 ;;;; Lisp review 3.
 ;;;; SBCL 1.3.1
-;;;; compile-time optimization, based on On Lisp by Graham
+;;;; space and time optimization, based on On Lisp by Graham
 
 ;;;; tail recursion and type declaration
 
